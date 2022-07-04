@@ -1,6 +1,6 @@
 - name: Demo on simple playbook
   hosts: all
   - Tasks:
-    task-1:
+    - name: task-1
     ansible.builtin.debug:
       msg: First Yaml file from Ansible
