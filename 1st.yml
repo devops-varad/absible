@@ -1,0 +1,3 @@
+- name: 1st yaml file
+  ansible.builtin.debug:
+    msg: this is first print message from 1st yml file
