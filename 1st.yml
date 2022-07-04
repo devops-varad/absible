@@ -1,3 +1,6 @@
 - name: 1st yaml file
-  ansible.builtin.debug:
-    msg: this is first print message from 1st yml file
+  - hosts: all
+    tasks:
+    - name: task1
+      ansible.builtin.debug:
+      msg: this is first print message from 1st yml file
