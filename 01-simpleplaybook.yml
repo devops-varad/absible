@@ -1,5 +1,0 @@
--name: Sample Demo Yaml File
--Tasks:
-  -name: task1
-    ansible.builtin.debug:
-        msg: Just Test Message
