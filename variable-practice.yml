@@ -1,10 +1,10 @@
 - name:  Demo on Simple Playbook
   hosts: all
-    tasks:
-   - name: task1
-         ansible.builtin.debug:
-              msg: 'hello from task1'
-   - name: task2
-            ansible.builtin.debug:
-                 msg: 'hello from task2'
+      tasks:
+         - name: task1
+                  ansible.builtin.debug:
+                                msg: 'hello from task1'
+         - name: task2
+                 ansible.builtin.debug:
+                                  msg: 'hello from task2'
 
